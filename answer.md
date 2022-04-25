@@ -1,24 +1,23 @@
 <img src="problem/1.png" /><br><br>
 
 ## Q1. 
-    ### XML 태그 context:namespace 의 특징은 무엇인가? <br>
+    ### XML 태그 context:namespace 의 특징은 무엇인가?
 
 ## A1. 
-    ### 이 태그는 Autowired 어노테이션을 이용할 수 있게 해준다. <br>
+    ### 이 태그는 Autowired 어노테이션을 이용할 수 있게 해준다.
 
-<br>
-<img src="problem/2.png" />
+<br><br>
+<img src="problem/2.png" /><br><br>
 
-<br>
-## ApplicationContext를 직접 설정해야 하는 경우는 무엇인가?
+## Q2.
+    ### ApplicationContext를 직접 설정해야 하는 경우는 무엇인가?
 
-<br>
-## A. 
-ApplicationContext는 Spring에서 생성되는 Bean을 관리하는 컨테이너의 역할을 하는데
-웹 어플리케이션의 경우에는 기본적으로 서버가 실행될 때 BeanFactory를 상속받아서 생성된다.
-사용자가 따로 main 메서드에서 생성할 필요가 있을 때는 수동으로 생성할 수 있을 것이라고 생각했다.
+## A2.
+    ### ApplicationContext는 Spring에서 생성되는 Bean을 관리하는 컨테이너의 역할을 하는데
+    ### 웹 어플리케이션의 경우에는 기본적으로 서버가 실행될 때 BeanFactory를 상속받아서 생성된다.
+    ### 사용자가 따로 main 메서드에서 생성할 필요가 있을 때는 수동으로 생성할 수 있을 것이라고 생각했다.
 
-<br>
+<br><br>
 <img src="problem/3.png" />
 
 <br>
