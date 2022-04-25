@@ -47,7 +47,7 @@
     스프링 빈 사이클에 대한 올바른 설명을 고르시오.
 
 ## A5. 
-    <img src="assets/Bean-Life-Cycle-Process-flow3.png">
+<img src="assets/Bean-Life-Cycle-Process-flow3.png">
     내용이 좀 배우지 않은 내용인데 찾아보고 쓰려면 시간이 걸릴것같습니다..
 
 <br><br>
