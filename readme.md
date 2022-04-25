@@ -89,30 +89,54 @@
 <img src="problem/7.png" /><br><br>
 
 ## Q7.
+    단위 테스트 작성할 때 스프링을 사용하는 이점은?
     
 ## A7.
+    1. 어플리케이션의 Spring Configuration 파일을 재사용한다.
+    2. 의존성을 주입할 때 사용한다.
+    3. 서블릿클래스의 mock을 제공한다.
+    1,2번은 단위 테스트 작성 시 Spring container는 사용하지 않는다.
+    3번은 org.springframework.mock 패키지가 MockHttpSession이나 MockHttpContext 같은 mock 클래스를 제공한다.
 
+    답: 3
 <br><br>
 <img src="problem/8.png" /><br><br>
 
 ## Q8.
-    
+    Spring Test Module이 트랜잭션을 지원하는 내용 중 옳은 것을 고르시오.
 ## A8.
-
+    1. 트랜잭션 매니저는 @TransactionConfiguration 어노테이션 내에서 설정할 수 있다.
+    2. @Before 어노테이션이 달린 메소드는 트랜잭션 밖에서 실행된다.
+    3. Spring Test는 REQUIRES_NEW 전파레벨로 구성된 서비스의 트랜잭션을 롤백할 수 있다.
+    
+    답: 1
 <br><br>
 <img src="problem/9.png" /><br><br>
 
 ## Q9.
-    
+    통합 테스트시 Spring을 사용하는 이점으로 옳지 않은 것은?
 ## A9.
+    1. 어플리케이션의 스프링 구성 파일 재사용
+    2. mock 또는 stub 만들기
+    3. test pattern 후 롤백을 사용할 수 있다.
+    4. 의존성 주입을 사용한다.
+    mock 또는 stub을 만드는 것은 단위테스트에 더 적합하다.
 
+    답: 2
 <br><br>
 <img src="problem/10.png" /><br><br>
 
 ## Q10.
-    
+    스프링 지원으로 통합 테스트 개발시 옳은 것을 고르시오.
 ## A10.
+    1. 각 테스트케이스에 대해 새로운 spring context가 생성된다.
+    2. 테스트 하려는 bean에 대한 참조를 하려면 getBean()메소드를 호출해야한다.
+    3. spring context 구성은 슈퍼클래스에 상속될 수 있다.
+    4. spring context 구성파일은 @ContextConfiguration 어노테이션에 제공되야한다.
+    기본적으로 @ContextConfiguration 어노테이션이 있는 클래스는 어노테이션이 있는 
+    수퍼클래스에 의해 정의된 spring context 구성 파일의 위치를 상속합니다. 
+    이 속성의 상속된 위치 통해 이 기본 동작을 변경할 수 있습니다.
 
-
+    답: 3
 
 
