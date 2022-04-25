@@ -4,18 +4,23 @@
     XML 태그 context:namespace 의 특징은 무엇인가?
 
 ## A1. 
-    이 태그는 Autowired 어노테이션을 이용할 수 있게 해준다.
+    해당 위치 아래에 있는 @Component, @Service, @Controller, @Repository 어노테이션을
+    검색해서 등록한 후 해당 객체의 의존성을 관리해준다. 추후 @Autowired 어노테이션을 통해
+    의존성이 주입된 객체를 이용할 수 있다.
+    답: 3
 
 <br><br>
 <img src="problem/2.png" /><br><br>
 
 ## Q2.
-    ApplicationContext를 직접 설정해야 하는 경우는 무엇인가?
+    ApplicationContext를 직접 인스턴스화하여 사용해야 하는 경우는 무엇인가?
 
 ## A2.
-    ApplicationContext는 Spring에서 생성되는 Bean을 관리하는 컨테이너의 역할을 하는데
-    웹 어플리케이션의 경우에는 기본적으로 서버가 실행될 때 BeanFactory를 상속받아서 생성된다.
-    사용자가 따로 main 메서드에서 생성할 필요가 있을 때는 수동으로 생성할 수 있을 것이라고 생각했다.
+    ApplicationContext는 BeanFactory 인터페이스의 하위 인터페이스이며 스프링 컨테이너 역할을 한다.
+    문제와 같은 경우는 여러 상황이 있을 수 있지만 주로 Spring Bean이 아닌 객체에서 스프링 컨테이너가 관리하는 객체에
+    접근할 필요가 있을 때 이를 인스턴스화할 필요가 있을 것이다. 그래서 3번이 제일 답에 가깝다.
+    답: 3
+    
 
 <br><br>
 <img src="problem/3.png" /><br><br>
@@ -24,6 +29,7 @@
     해당 클래스에 대한 올바른 설명을 고르시오.
 ## A3.
     Configuration 클래스이기 때문에 해당 어노테이션이 필요하다.
+    답: 1
 
 <br><br>
 <img src="problem/4.png" /> <br><br>
@@ -31,7 +37,8 @@
 ## Q4.
     스프링 테스트 모듈에 대한 올바른 설명을 고르시오.
 ## A4.
-    배우지 않은 내용이라서 일단 스킵했습니다.
+    해당 설명들은 모두 mockito에 대한 설명에 해당한다.
+    답: 4
 
 <br><br>
 <img src="problem/5.png" /><br><br>
