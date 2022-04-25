@@ -1,4 +1,4 @@
-<img src="problem/1.png" />
+<img src="problem/1.png" /><br><br>
 
 ## XML 태그 context:namespace 의 특징은 무엇인가? <br>
 
