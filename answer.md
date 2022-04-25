@@ -6,7 +6,7 @@
 ## A. 이 태그는 Autowired 어노테이션을 이용할 수 있게 해준다. <br>
 
 <br>
-<img src="./2.png" />
+<img src="problem/2.png" />
 
 <br>
 ## ApplicationContext를 직접 설정해야 하는 경우는 무엇인가?
@@ -17,7 +17,7 @@
 사용자가 따로 main 메서드에서 생성할 필요가 있을 때는 수동으로 생성할 수 있을 것이라고 생각했다.
 
 <br>
-<img src="./3.png" />
+<img src="problem/3.png" />
 
 <br>
 ## 해당 클래스에 대한 올바른 설명을 고르시오.
@@ -25,16 +25,35 @@
 ## A. Configuration 클래스이기 때문에 해당 어노테이션이 필요하다.
 
 <br>
+<img src="problem/4.png" />
+<br>
 ## 스프링 테스트 모듈에 대한 올바른 설명을 고르시오.
 <br>
 ## A. 배우지 않은 내용이라서 일단 스킵했습니다.
 
+<br>
+<img src="problem/5.png" />
 <br>
 ## 스프링 빈 사이클에 대한 올바른 설명을 고르시오.
 <br>
 ## A. 내용이 좀 배우지 않은 내용인데 찾아보고 쓰려면 시간이 걸릴것같습니다..
 <br>
 ##  
+
+<br>
+<img src="problem/6.png" />
+
+<br>
+<img src="problem/7.png" />
+
+<br>
+<img src="problem/8.png" />
+
+<br>
+<img src="problem/9.png" />
+
+<br>
+<img src="problem/10.png" />
 
 
 
